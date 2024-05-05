@@ -65,11 +65,18 @@
     <Build Include="Tables\UserRole.sql" />
     <Build Include="Tables\RolePermission.sql" />
     <Build Include="Tables\Profile.sql" />
-    <Build Include="Tables\UserActivities.sql" />
+    <Build Include="Tables\EventRecordType.sql" />
     <Build Include="Tables\ContentType.sql" />
     <Build Include="Tables\Content.sql" />
+    <Build Include="Tables\Tag.sql" />
+    <Build Include="Tables\ContentTag.sql" />
+    <Build Include="Tables\MediaAsset.sql" />
+    <Build Include="Tables\EventRecord.sql" />
+    <Build Include="Tables\Bookmark.sql" />
+    <Build Include="Tables\ContentContribution.sql" />
   </ItemGroup>
   <ItemGroup>
-    <RefactorLog Include="DigitalLibrary.refactorlog" />
+    <None Include="readme.md" />
+    <None Include=".gitignore" />
   </ItemGroup>
 </Project>

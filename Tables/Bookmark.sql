@@ -1,6 +1,8 @@
 ﻿CREATE TABLE [dbo].[Bookmark]
 (
-	[BookmarkId] INT NOT NULL PRIMARY KEY, 
+	[BookmarkId] INT IDENTITY(1,1) NOT NULL PRIMARY KEY, 
     [ContentId] INT NOT NULL, 
-    [BookmarkedBy] NCHAR(10) NULL
+    [BookmarkedBy] INT NOT NULL, 
+    [CreatedAt] DATETIME NOT NULL DEFAULT GETDATE(), 
+    [UpdatedAt] DATETIME NULL
 )

@@ -1,4 +1,8 @@
-﻿CREATE TABLE [dbo].[ContentTypeTag]
+﻿CREATE TABLE [dbo].[ContentTag]
 (
-	[ContentTypeTagId] INT NOT NULL PRIMARY KEY
+	[ContentTagId] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[ContentId] INT  NOT NULL,
+	[TagId] INT NOT NULL,
+	[CreatedAt] DATETIME NOT NULL DEFAULT GETDATE(),
+	[UPdatedAt] DATETIME NOT NULL
 )
