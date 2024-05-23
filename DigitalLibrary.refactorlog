@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="6592da44-e8c6-4559-ab64-484cf233762a" ChangeDateTime="05/10/2024 09:08:06">
+    <Property Name="ElementName" Value="[dbo].[ContentSource].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContentSource]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ContentSourceI" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb191ffa-af62-4c3a-bbf6-2332ac8628a3" ChangeDateTime="05/10/2024 09:08:13">
+    <Property Name="ElementName" Value="[dbo].[ContentSource].[ContentSourceI]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContentSource]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ContentSourceId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b489bc70-4449-4c3e-8896-aee98f3adc2d" ChangeDateTime="05/25/2025 10:22:05">
+    <Property Name="ElementName" Value="[dbo].[ContentCategory].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContentCategory]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ContentCategoryId" />
+  </Operation>
+</Operations>

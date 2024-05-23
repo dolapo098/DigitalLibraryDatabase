@@ -1,9 +1,9 @@
-﻿CREATE TABLE [dbo].[MediaAsset]
+﻿CREATE TABLE [dbo].[MediaCover]
 (
-	[MediaAssetId] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY,
     [MediaCoverId] UNIQUEIDENTIFIER NOT NULL, 
     [FilePath] VARCHAR(250) NOT NULL, 
     [UploadedBy] BIGINT NOT NULL, 
     [CreatedAt] DATETIME NOT NULL DEFAULT GETDATE(), 
-    [UpdatedAt] DATETIME NULL
+    [UpdatedAt] DATETIME NULL, 
+    [FileType] VARCHAR(50) NOT NULL
 )
