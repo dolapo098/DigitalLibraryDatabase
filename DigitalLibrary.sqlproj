@@ -55,6 +55,7 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Values" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\User.sql" />
@@ -75,6 +76,7 @@
     <Build Include="Tables\ContentSource.sql" />
     <Build Include="Tables\MediaCover.sql" />
     <Build Include="Tables\ContentCategory.sql" />
+    <Build Include="Values\ContentCategory.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
@@ -82,5 +84,8 @@
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="DigitalLibrary.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
