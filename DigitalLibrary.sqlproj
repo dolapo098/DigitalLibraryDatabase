@@ -87,7 +87,4 @@
   <ItemGroup>
     <RefactorLog Include="DigitalLibrary.refactorlog" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="PostScriptDeployment\ContentType.sql" />
-  </ItemGroup>
 </Project>
