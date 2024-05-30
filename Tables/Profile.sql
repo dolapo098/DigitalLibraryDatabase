@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[Profile]
 (
-	[ProfileId] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[ProfileID] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
 	[UserId] INT NOT NULL,
 	[Bio] VARCHAR (250),
 	[Age] INT,

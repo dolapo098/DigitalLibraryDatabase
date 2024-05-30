@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[ContentSource]
 (
-	[ContentSourceId] INT NOT NULL PRIMARY KEY, 
+	[ContentSourceID] INT NOT NULL PRIMARY KEY, 
     [Title] VARCHAR(250) NOT NULL, 
     [SourceType] INT NOT NULL, 
     [CreatedAt] DATETIME NOT NULL, 
